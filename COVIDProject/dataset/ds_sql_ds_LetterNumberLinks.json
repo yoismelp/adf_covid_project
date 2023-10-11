@@ -1,0 +1,17 @@
+{
+	"name": "ds_sql_ds_LetterNumberLinks",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azsql_letter_log",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "LetterNumberLinks"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

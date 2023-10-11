@@ -1,0 +1,9 @@
+{
+	"name": "adf-yoismel-trial",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1b735b9c-47b6-43d7-8b61-fcf8a7e0450f",
+		"tenantId": "e9e23cc3-ac7d-4e97-9f0a-67839ff5d2a3"
+	}
+}

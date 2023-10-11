@@ -1,0 +1,22 @@
+{
+	"name": "ds_exc_letternumber_links",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_covidreportingyoismeldl",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Export",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ds_LetterNumberLinks.xlsx",
+				"fileSystem": "letterlog"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
